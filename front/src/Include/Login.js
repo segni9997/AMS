@@ -1,7 +1,13 @@
 import React from "react";
+import { Navbars } from "./Navbars";
 
 function Login() {
-  return <div className="w-2/3 h-4/5 bg-gray-950">Login</div>;
+  return (
+    <Navbars>
+      {" "}
+      <div>Login</div>
+    </Navbars>
+  );
 }
 
 export default Login;

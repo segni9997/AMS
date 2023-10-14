@@ -11,13 +11,13 @@ import {
 export const Navbars = ({ children }) => {
   return (
     <>
-      <Nav className="p-5">
+      <Nav className="w-full overflow-scroll-none">
         <NavLink to="/">
           <img alt="logo" className="" />
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to="/Home" activeStyle>
+          <NavLink to="/" activeStyle>
             Home
           </NavLink>
           <NavLink to="/about" activeStyle>
